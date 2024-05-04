@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    background-color: #00cc87;
+    
+}
+#main {display: flex;
+    flex-direction: column;
+    background-color:green;
+    margin:auto;
+    /* width: 100%; */
+    width:93.7vw;
+    align-items: center;
+ }  
+.header1 {
+    display: flex;
+    width: 91.94vw;
+    /* width: 100%; */
+    height: 48.31vw;
+    position:relative ;
+background-image: url(assets/img/fon.png) ;
+background-size: cover;
+
+background-color: aqua;
+
+}
+/* ЛОГО МОБИЛЬНОЕ */
+
+/* header-mob{
+    display: none;
+} */
+
+.left{display: flex;
+    flex-direction: column;
+    width:66.17vw;
+    position: relative;
+    }
+.logo{display:flex;
+    position: relative;
+    top: 4%; 
+    left: 2.63%;   
+}
+.logo img {
+    width: 12vw;
+}
+.logo-text{
+    position: relative;
+    top:39.58%;  
+    left: 2.63%; 
+    }
+.logo-text img {
+    width: 45.83vw;
+}
+.rait{
+    display: flex;
+    width: 30%;
+    position: relative;
+    justify-content: center;
+    }
+.btn1   {
+        display: flex;
+        position: relative;
+        background: #00cc87;
+        width: 19.76vw;
+        height: 3.88vw;
+        border-radius: 10px;
+        top:88.58%;
+        margin-left: 7.63%;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+       
+    }
+    .btn1 a{
+         color: #ffff; 
+         text-decoration: none;
+         font-weight: 500;
+         font-size: 1.76vw; 
+    }
+   .Title-mob{
+    display: none;
+    }
+    .body-icon, footer{
+        display: flex;
+        flex-direction: column;
+        width: 91.94vw;
+        /* border: 1px solid black; */
+        justify-content: start; 
+        margin: 3% auto;       
+    }
+    .body-icon-left, .footer-left{
+        display: flex;
+        width: 70%;
+        flex-direction: row;
+              
+    }
+    .body-icon-mob{
+        display: none;
+        justify-content:end;
+    }
+    .body-icon-mob img{
+        width: 60%;
+        
+    }
+    .body-icon1,.body-icon2,.body-icon3, .footer-left1, .footer-left2, .footer-left3 {display: flex;
+        width: 33%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .body-icon11 img, .body-icon22 img, .body-icon33 img{
+        width: 5.85vw;
+    }
+    .body-icon1-text,.body-icon2-text,.body-icon3-text{
+        width: 11.71vw;
+        font-size: 1.17vw;
+        font-weight: normal;
+    }
+    .body-text{
+        width: 65%;
+        font-weight: normal;
+        font-size:1.75vw;
+        border: 1px solid yellow;
+        margin: 3% 0;
+    }
+    .vid{
+        display: flex;
+        flex-direction: row;
+        width: 91.94vw;
+        /* border: 1px solid #00cc87; */
+        margin: auto;
+        background-color: blueviolet;
+    }
+    /* video{
+        width:46.85vw;
+         height:29.28vw;
+         border-radius: 10px;
+    } */
+    .vid>.fotorama{
+        width:46.85vw;
+        /* width: 70%; */
+         height:auto;
+         border: 1px solid blue;
+         border-radius: 10px;
+    }
+    .vid-btn-mob{
+        display: none;
+    }
+    .vid-btn {display: flex;
+        flex-direction: column;
+        width: 17.56vw;
+        border: 1px solid yellowgreen;
+        padding-left: 2%;
+    }
+    .vid-btn-text{
+        font-size: 1.75vw;
+        font-weight: bold;
+        margin-bottom: 6%;
+    }
+    .vid-btn1, .vid-btn2   {
+        display: flex;
+         position: relative;
+        
+        width: 6.36vw;
+        height: 2.56vw;
+        /* border-radius: 10px; */
+        text-align: center;
+        /* top:88.58%; */
+        /* margin-right: 5.63%; */
+              
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;       
+    }
+    .vid-btn1{
+        border-top-left-radius:10px ;
+        border-top-right-radius: 10px;
+    
+    }
+    .vid-btn2{
+        background: #E5FAF3;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .vid-btn1 a, .vid-btn2 a{
+        text-decoration:none ;
+        color: #000;        
+    }
+    .vid-btn1 a {
+        color: white;
+    }
+    .vid-m{
+         margin:3% auto ;
+    }
+    .vid-text {display: flex;
+        flex-direction: column;
+        width: 17.56vw;
+        /* border: 1px solid yellowgreen; */
+        padding-left: 2%;
+    }
+    .vid-img1{
+        display: flex;
+       width: 46.85vw;
+       height: 12.88vw; 
+    }
+     
+    .vid-btn-z{
+        width: 9.73vw;
+        height: 2.56vw;
+    }
+    
+.fotorama{
+    display: flex;
+    width: 63.83vw;
+    height: 43.48vw;
+    border: 1px solid brown;
+}
+.card-icon{
+    display: flex;
+    flex-direction: row;
+    width: 70%; 
+    flex-wrap: wrap;
+    justify-content:center
+}
+.card{
+    display: flex;
+    /* display: flex; */
+    flex-direction: column;
+    
+    /* width: 18.15vw; */
+    /* width: 25%; */
+    width: 18.15vw;
+    height: auto;
+    /* border: 1px solid royalblue; */
+    margin: 1em;
+    text-align: left;
+    border-radius: 10px;
+    /* background: white */
+}
+.card img{
+    width: 2.92vw;
+    height: 2.92vw;
+    /* border: 1px solid #E5FAF3; */
+    border-radius: 50%;
+    /* background: #E5FAF3;     */
+}
+.card p{
+    font-size: 20px;
+    font-weight: normal;
+}
+ .footer-left2, .footer-left3{
+    align-items: end;
+}
+/* МОБИЛЬНЫЕ ВЕРСИИ */
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+   /* #main{
+    width: 150vw;
+   }  */
+   /* .rait{
+        display:none;
+    } */
+    /* header-mob {
+        display: flex;
+        width: 91.94vw;
+        height: 48.31vw;
+        position:relative ;
+        background: url(assets/img/fon.png) no-repeat;
+        background-size: 100%;
+    /* background-color: aqua; 
+    
+    } */
+    .logo-text{display: none;}
+    .logo{
+        display:flex;
+        position: relative;
+        top: 45%; 
+        left: 2.63%;   
+    }
+    .logo img {
+        width: 22vw;
+    }
+    .btn1{
+        display: none;
+    }
+    /* .btn1   {
+        display: flex;
+        position: fixed;       
+        background: #00cc87;
+        width: 19.76vw;
+        height: 3.88vw;
+        border-radius: 10px;
+        top:88.58%;
+        margin-left: 7.63%;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+       
+    } */
+
+    .Title-mob{
+        display: flex;
+        width: 65%;
+        font-weight: bold;
+        font-size:40px;
+        /* border: 1px solid yellow; */
+        margin: 3% 0;
+    }
+    .body-icon-left {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+        /* background-color:brown; */
+        /* flex-direction: row; */
+          
+    }
+    .body-icon1,.body-icon2,.body-icon3, .body-icon-mob{
+        display: flex;
+        width: 50%;
+        
+        flex-direction: row;
+        justify-content: space-around;
+        /* background-color: blue; */
+        padding: 8px;
+    }
+    .body-icon11 img, .body-icon22 img, .body-icon33 img{
+        /*  width: 5.85vw;  */
+        width: 40%;
+    }
+    .body-icon1-text,.body-icon2-text,.body-icon3-text{
+        /* width: 11.71vw; */
+        width: 60%;
+        /* font-size: 1.17vw; */
+        font-size: 10px;
+        font-weight: normal;
+    }
+     .body-text{
+        width: 100%;
+        font-weight: normal;
+        font-size:18px;
+        margin: 3% 0;
+    } 
+     .vid{
+        display: flex;
+        flex-direction: column;
+        width: 91.94vw;
+        margin: auto;
+         /* width: 100%;  */
+    } 
+     .vid-btn{
+        display: none;
+     } 
+    .vid-btn-mob{
+        display: flex;
+        flex-direction: row;
+        background-color: blueviolet;
+
+    }
+     
+        .vid-btn-text{
+            display: flex;
+        width: 70%;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 6%;
+        background-color: brown;
+        
+    }
+    .vid-btn-mix{display: flex;
+        flex-direction: column;
+        width: 30%;
+        /* margin: auto; */
+        background-color: chocolate;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .vid-btn1, .vid-btn2   {
+        display: flex;
+         position: relative;
+        /* flex-direction: column; */
+        width: 80%;
+        height: 35%; 
+        text-align: center;
+        background-color:aqua;      
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;       
+    }
+    .vid>.fotorama{
+        width:100%;
+        /* width: 70%; */
+         height:auto;
+         border: 1px solid blue;
+         border-radius: 10px;
+    }
+    
+/* .vid-btn{display: none ;} */
+.vid-img1{
+    /* display: flex; */
+   width: 100vw;
+   height: auto; 
+}
+}
